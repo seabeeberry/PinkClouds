@@ -24,28 +24,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D298DCE52E182A9600C73DA1 /* PinkClouds.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PinkClouds.xcodeproj; sourceTree = "<group>"; };
+		D298DCE62E182A9600C73DA1 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D298DCEB2E182A9600C73DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D298DCEC2E182A9600C73DA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D298DCED2E182A9600C73DA1 /* PinkCloudsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkCloudsApp.swift; sourceTree = "<group>"; };
+		D298DCEF2E182A9600C73DA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D298DCF02E182A9600C73DA1 /* Pink_CloudsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pink_CloudsTests.swift; sourceTree = "<group>"; };
+		D298DCF22E182A9600C73DA1 /* Pink_CloudsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pink_CloudsUITests.swift; sourceTree = "<group>"; };
+		D298DCF32E182A9600C73DA1 /* Pink_CloudsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pink_CloudsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D2B716C32E157C10004F64A3 /* Pink Clouds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pink Clouds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B716D02E157C11004F64A3 /* Pink CloudsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pink CloudsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B716DA2E157C11004F64A3 /* Pink CloudsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pink CloudsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D2B716C52E157C10004F64A3 /* Pink Clouds */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pink Clouds";
-			sourceTree = "<group>";
-		};
-		D2B716D32E157C11004F64A3 /* Pink CloudsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pink CloudsTests";
-			sourceTree = "<group>";
-		};
-		D2B716DD2E157C11004F64A3 /* Pink CloudsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pink CloudsUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D2B716C02E157C10004F64A3 /* Frameworks */ = {
@@ -72,13 +63,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D298DCE72E182A9600C73DA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D298DCE62E182A9600C73DA1 /* Activity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D298DCE82E182A9600C73DA1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D298DCE92E182A9600C73DA1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D298DCEA2E182A9600C73DA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D298DCEE2E182A9600C73DA1 /* PinkCloudsApp */ = {
+			isa = PBXGroup;
+			children = (
+				D298DCE72E182A9600C73DA1 /* Models */,
+				D298DCE82E182A9600C73DA1 /* Services */,
+				D298DCE92E182A9600C73DA1 /* ViewModels */,
+				D298DCEA2E182A9600C73DA1 /* Views */,
+				D298DCEB2E182A9600C73DA1 /* Assets.xcassets */,
+				D298DCEC2E182A9600C73DA1 /* ContentView.swift */,
+				D298DCED2E182A9600C73DA1 /* PinkCloudsApp.swift */,
+			);
+			path = PinkCloudsApp;
+			sourceTree = "<group>";
+		};
+		D298DCF12E182A9600C73DA1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D298DCF02E182A9600C73DA1 /* Pink_CloudsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D298DCF42E182A9600C73DA1 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D298DCF22E182A9600C73DA1 /* Pink_CloudsUITests.swift */,
+				D298DCF32E182A9600C73DA1 /* Pink_CloudsUITestsLaunchTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		D298DCF52E182A9600C73DA1 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D2B716BA2E157C10004F64A3 = {
 			isa = PBXGroup;
 			children = (
-				D2B716C52E157C10004F64A3 /* Pink Clouds */,
-				D2B716D32E157C11004F64A3 /* Pink CloudsTests */,
-				D2B716DD2E157C11004F64A3 /* Pink CloudsUITests */,
 				D2B716C42E157C10004F64A3 /* Products */,
+				D298DCE52E182A9600C73DA1 /* PinkClouds.xcodeproj */,
+				D298DCEE2E182A9600C73DA1 /* PinkCloudsApp */,
+				D298DCEF2E182A9600C73DA1 /* README.md */,
+				D298DCF12E182A9600C73DA1 /* Tests */,
+				D298DCF42E182A9600C73DA1 /* UITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,9 +165,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				D2B716C52E157C10004F64A3 /* Pink Clouds */,
-			);
 			name = "Pink Clouds";
 			packageProductDependencies = (
 			);
@@ -130,9 +185,6 @@
 			dependencies = (
 				D2B716D22E157C11004F64A3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D2B716D32E157C11004F64A3 /* Pink CloudsTests */,
-			);
 			name = "Pink CloudsTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +204,6 @@
 			);
 			dependencies = (
 				D2B716DC2E157C11004F64A3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D2B716DD2E157C11004F64A3 /* Pink CloudsUITests */,
 			);
 			name = "Pink CloudsUITests";
 			packageProductDependencies = (
@@ -186,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2B716BE2E157C10004F64A3 /* Build configuration list for PBXProject "Pink Clouds" */;
+			buildConfigurationList = D2B716BE2E157C10004F64A3 /* Build configuration list for PBXProject "PinkClouds" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -198,6 +247,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D2B716C42E157C10004F64A3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D298DCF52E182A9600C73DA1 /* Products */;
+					ProjectRef = D298DCE52E182A9600C73DA1 /* PinkClouds.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D2B716C22E157C10004F64A3 /* Pink Clouds */,
@@ -513,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2B716BE2E157C10004F64A3 /* Build configuration list for PBXProject "Pink Clouds" */ = {
+		D2B716BE2E157C10004F64A3 /* Build configuration list for PBXProject "PinkClouds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2B716E22E157C11004F64A3 /* Debug */,
